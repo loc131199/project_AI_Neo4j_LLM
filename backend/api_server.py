@@ -2,10 +2,10 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from backend.chatbot_logic import ChatbotLogic
-from backend.config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD
-from backend.neo4j_handle import Neo4jHandler
-from backend.openai_handler import OpenAIHandler
+from chatbot_logic import ChatbotLogic
+from config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD
+from neo4j_handle import Neo4jHandler
+from openai_handler import OpenAIHandler
 
 app = FastAPI()
 
