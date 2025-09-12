@@ -1,7 +1,7 @@
 # backend/openai_handler.py
 import os
 from openai import OpenAI
-from backend import config
+import config
 
 class OpenAIHandler:
     def __init__(self):

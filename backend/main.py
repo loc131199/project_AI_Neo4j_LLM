@@ -4,7 +4,7 @@
 import os
 from config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD
 from neo4j_handle import Neo4jHandler
-from backend.openai_handler import GeminiHandler
+from openai_handler import GeminiHandler
 from chatbot_logic import ChatbotLogic
 
 if __name__ == "__main__":

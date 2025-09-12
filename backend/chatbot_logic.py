@@ -1,6 +1,6 @@
 import re
-from backend.openai_handler import OpenAIHandler
-from backend.neo4j_handle import Neo4jHandler
+from openai_handler import OpenAIHandler
+from neo4j_handle import Neo4jHandler
 
 
 class ChatbotLogic:
